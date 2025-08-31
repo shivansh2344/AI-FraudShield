@@ -1,8 +1,8 @@
 # AI FraudShield — Suspicious Transaction Flagging
 
-> Hackathon-ready project with dual interfaces: Streamlit demo + Modern HTML/JS frontend with Flask backend
+> Hackathon project by team Innov8crew with dual interfaces: Streamlit demo + Modern HTML/JS frontend with Flask backend currently under development process
 >
-> Optimized for Indian banking sector with INR currency support and State Bank of India integration
+> Optimized for Indian banking sector with INR currency support
 
 ## 🚀 What's inside
 - **Synthetic dataset generator** (`src/data/generate_synthetic.py`)
@@ -93,13 +93,10 @@ fraud_detection_skeleton/
 └── requirements.txt
 ```
 
-## 🧪 Evaluation (suggested)
-- Focus on **Recall** and **AUC** for fraud class
-- Track confusion matrix + PR curve
-- Try thresholds optimized for **F2 score** (recall-heavy)
-
-## 🧠 Explainability (optional)
-- Add SHAP later to explain top risk factors per transaction.
+## 🧪 Evaluation (under construction)
+- Focusing on **Recall** and **AUC** for fraud class
+- Tracking of confusion matrix + PR curve
+- Trying thresholds optimized for **F2 score** (recall-heavy)
 
 ## 🔧 Troubleshooting
 
@@ -117,4 +114,4 @@ If the HTML frontend cannot connect to the Flask API:
 2. Check for any CORS issues in your browser's developer console
 3. Verify that the API URL in `frontend/js/script.js` matches your Flask server address
 
-Good luck & ship fast 🔐✨
+Thankyou for showing interest in our project✨
